@@ -4,48 +4,61 @@ import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
-  DiMongodb,
   DiPython,
-  DiGit,
+  DiHtml5,
+  DiCss3,
+  DiJava,
 } from "react-icons/di";
-import { SiPytorch, SiTensorflow, SiFirebase } from "react-icons/si";
+import { SiTypescript, SiRedux } from "react-icons/si";
+import reduxsaga from "../../Assets/reduxsaga.svg"
 
-function Techstack() {
+function LanguagesAndFramworks() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiHtml5 />
+        <span className="stack_name">HTML5</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
+        <span className="stack_name">CSS3</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+        <span className="stack_name">JavaScript</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiTypescript />
+        <span className="stack_name">TypeScript</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+        <span className="stack_name">Python</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <DiJava />
+        <span className="stack_name">Java</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTensorflow />
+        <DiReact />
+        <span className="stack_name">React</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiReact />
+        <span className="stack_name">React-Native</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiRedux className="tech-icon-redux"/>
+        <span className="stack_name">Redux</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={reduxsaga} className="tech-icon-download" alt="reduxsaga" />
+        <span className="stack_name">Redux-saga</span>
       </Col>
     </Row>
   );
 }
 
-export default Techstack;
+
+
+export default LanguagesAndFramworks;
