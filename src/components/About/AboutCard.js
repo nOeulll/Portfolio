@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             안녕하세요&nbsp;
             <span className="purple">웹 프론트엔드와 디자인이 가능한 개발자 정현진</span>
-            입니다.
+            입니다!
             <br />
             <br />
             코딩 외에 제가 좋아하는 것들은!
