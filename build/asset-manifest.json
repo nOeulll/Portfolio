@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a8e8136.chunk.css",
+    "main.js": "/static/js/main.48a54423.chunk.js",
+    "main.js.map": "/static/js/main.48a54423.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2621189c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2621189c.js.map",
+    "static/css/2.27dd871e.chunk.css": "/static/css/2.27dd871e.chunk.css",
+    "static/js/2.ca60ccef.chunk.js": "/static/js/2.ca60ccef.chunk.js",
+    "static/js/2.ca60ccef.chunk.js.map": "/static/js/2.ca60ccef.chunk.js.map",
+    "static/js/3.cb5efbbc.chunk.js": "/static/js/3.cb5efbbc.chunk.js",
+    "static/js/3.cb5efbbc.chunk.js.map": "/static/js/3.cb5efbbc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.27dd871e.chunk.css.map": "/static/css/2.27dd871e.chunk.css.map",
+    "static/css/main.9a8e8136.chunk.css.map": "/static/css/main.9a8e8136.chunk.css.map",
+    "static/js/2.ca60ccef.chunk.js.LICENSE.txt": "/static/js/2.ca60ccef.chunk.js.LICENSE.txt",
+    "static/media/Soumyajit-Behera.dc4c8363.pdf": "/static/media/Soumyajit-Behera.dc4c8363.pdf",
+    "static/media/about.aee0f771.png": "/static/media/about.aee0f771.png",
+    "static/media/avatar.7f806e40.svg": "/static/media/avatar.7f806e40.svg",
+    "static/media/blog.52102140.png": "/static/media/blog.52102140.png",
+    "static/media/chatify.9373edda.png": "/static/media/chatify.9373edda.png",
+    "static/media/codeEditor.ba945879.png": "/static/media/codeEditor.ba945879.png",
+    "static/media/emotion.e92e314a.jpeg": "/static/media/emotion.e92e314a.jpeg",
+    "static/media/style.css": "/static/media/pre.4410c5ba.svg",
+    "static/media/home-main.359935c3.svg": "/static/media/home-main.359935c3.svg",
+    "static/media/leaf.4c15d6eb.png": "/static/media/leaf.4c15d6eb.png",
+    "static/media/reduxsaga.2bf483a1.svg": "/static/media/reduxsaga.2bf483a1.svg",
+    "static/media/suicide.b72f1f9f.png": "/static/media/suicide.b72f1f9f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2621189c.js",
+    "static/css/2.27dd871e.chunk.css",
+    "static/js/2.ca60ccef.chunk.js",
+    "static/css/main.9a8e8136.chunk.css",
+    "static/js/main.48a54423.chunk.js"
+  ]
+}
