@@ -3,10 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import collabo from "../../Assets/collabo.svg";
 import Toolstack from "./Toolstack";
 import LanguagesAndFramworks from "./Techstack";
 import ForDesignstack from "./ForDesignstack";
+import { BsFillQuestionCircleFill } from "react-icons/bs";
 
 function About() {
   return (
@@ -31,9 +32,28 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={collabo} alt="about" className="mimoji" />
           </Col>
         </Row>
+        <div className="skill_info">
+          <div className="question_circle">
+            <BsFillQuestionCircleFill />
+          </div>
+          <ul className="question_circle_info_list">
+            <li className="question_circle_info">
+              <div className="skill_grade_best_info"></div>
+              <div className="grade_info">자신있게 다룰 수 있는</div>
+            </li>
+            <li className="question_circle_info">
+              <div className="skill_grade_good_info"></div>
+              <div className="grade_info">취미 수준</div>
+            </li>
+            <li className="question_circle_info">
+              <div className="skill_grade_once_info"></div>
+              <div className="grade_info">한번쯤 써본</div>
+            </li>
+          </ul>
+        </div>
         <h1 className="project-heading">
           <strong className="purple">Skillset </strong>
         </h1>

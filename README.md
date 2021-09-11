@@ -1,7 +1,7 @@
 <h1>
   MyFolio
 </h1>
-<a href="http://도메인주소" target="_blank">CLICK ME!(포트폴리오 사이트 링크)</a>
+<a href="https://portfolio.hyeonjin.me" target="_blank">CLICK ME!(포트폴리오 사이트 링크)</a>
 
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />

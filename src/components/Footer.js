@@ -14,7 +14,10 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3 style={{ fontSize: 13 }}>Designed and Developed by Soumyajit Behera & Redesigned by Hyeonjin</h3>
+          <h3 style={{ fontSize: 14 }}>Designed and Developed by Soumyajit Behera & Redesigned by Hyeonjin</h3>
+          <a style={{ fontSize: 1 }} href="https://www.freepik.com/vectors/computer">Computer vector created by svstudioart - www.freepik.com</a>
+          <br/>
+          <a style={{ fontSize: 1 }}href='https://www.freepik.com/vectors/people'>People vector created by studiogstock - www.freepik.com</a>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} SB</h3>

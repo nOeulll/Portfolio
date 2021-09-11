@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/myMimoji.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -25,7 +25,7 @@ function Home2() {
               <i>
                 <b className="purple">디자인과 개발, 둘 다 잘 해야 </b>
               </i>
-                &nbsp;좋은 아이디어를 제대로 구현할 수 있겠다는 생각이 들었습니다. 그렇게 직접 개발까지 해보고 싶은 욕심이 생겼고, 2020년 1월부터 개발에 도전하였습니다.
+                &nbsp;좋은 아이디어를 제대로 구현할 수 있겠다는 생각이 들었습니다. 그렇게 직접 개발까지 해보고 싶은 욕심이 생겼고, 2021년 1월부터 개발에 도전하였습니다.
               <br />
               <br />
               지금까지 여러 해커톤 대회 및 공모전에 참가하고 사이드 프로젝트를 진행하였습니다.
@@ -40,7 +40,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="mimoji" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

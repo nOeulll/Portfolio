@@ -41,10 +41,6 @@ function Toolstack() {
         <SiJupyter />
         <span className="stack_name">Jupyter Notebook</span>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAndroidstudio />
-        <span className="stack_name">Android Studio</span>
-      </Col>
     </Row>
   );
 }
