@@ -4,9 +4,9 @@ import myImg from "../../Assets/myMimoji.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -19,7 +19,8 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              프로그래밍을 하는 행위 그 자체와 그로 인해 얻게 되는 성취감과 결과물이 저를 개발자로서 지속적으로 나아갈 수 있게 하는 원동력이 되었습니다.
+              <b className="purple">프로그래밍을 하는 것 자체와 그로 인해 얻게 되는 성취감과 결과물이 </b>
+              저를 개발자로서 지속적으로 나아갈 수 있게 하는 원동력이 되었습니다.
               <br />
               <br />처음 웹에 발을 들이게 된 분야는 UX/UI 디자인이었습니다. 그러다 점점&nbsp;
               <i>
@@ -28,12 +29,12 @@ function Home2() {
                 &nbsp;좋은 아이디어를 제대로 구현할 수 있겠다는 생각이 들었습니다. 그렇게 직접 개발까지 해보고 싶은 욕심이 생겼고, 2021년 1월부터 개발에 도전하였습니다.
               <br />
               <br />
-              지금까지 여러 해커톤 대회 및 공모전에 참가하고 사이드 프로젝트를 진행하였습니다.
+              지금까지 여러 해커톤 대회에 참가하고, 사이드 프로젝트도 작업하였습니다. 또한 지금도 계속해서 사이드 프로젝트와 공모전을 진행하고 있습니다.
               <br />
               <br />
                현재 제 목표는&nbsp;
                <i>
-                <b className="purple">사용자 친화적 UX/UI를 적용한 Interactive Web</b>
+                <b className="purple">사용자 친화적 UX/UI를 적용한 Interactive Web Application</b>
               </i>
               &nbsp;을 개발하는 것입니다.
             </p>
@@ -79,6 +80,16 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:bangawork7@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <MdEmail />
                 </a>
               </li>
             </ul>

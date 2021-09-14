@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import reto from "../../Assets/Projects/reto.png";
+import dorandoran from "../../Assets/Projects/dorandoran.png";
+import banhada from "../../Assets/Projects/banhada.png";
 
 function Projects() {
   return (
@@ -22,31 +19,31 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="반하다"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="도란도란"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
+              imgPath={reto}
               isBlog={false}
               title="RETO"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              description="2021년 9월 사이드 프로젝트로 진행했던 1인 프로젝트이다. 사진과 함께 그에 담긴 기억을 텍스트로 저장하고 추억할 수 있도록 돕는 웹 애플리케이션이다. 어머니께서 사진을 저장하고 해당되는 코멘트를 적어서 어디서든 보고 싶다고 말씀하신 것에서 아이디어를 얻었다. 직접 기획과 디자인을 하고, 모든 페이지의 프론트엔드 작업을 하였다."
+              link="https://reto.hyeonjin.me/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dorandoran}
+              isBlog={false}
+              title="도란도란"
+              description="2021년 8월 제2회 OASIS HACKATHON에서 팀 4학년으로 진행한 프로젝트이다. 수도권 대비 호남지역 대학생들을 위한 네트워킹 커뮤니티의 부족으로 인해 발생되는 교육 격차를 해소해주는 호남지역 대학생 네트워킹 커뮤니티 웹 애플리케이션이다. 해당 프로젝트를 기획하고 프로토타입으로 개발하였다. 헤더, 로그인, 회원가입 페이지와 모집 페이지, 캘린더 페이지의 프론트엔드 작업을 하였다."
+              link="https://github.com/2021-oasis-hackathon/4Grade"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={banhada}
+              isBlog={false}
+              title="반하다"
+              description="2021년 1월 제1회 OASIS HACKATHON에서 팀 3N으로 진행한 프로젝트이다. 기존 당근마켓 서비스를 아파트 주민들 간의 신선식품, 배달식품 공유 서비스로 확장한 모바일(Android) 애플리케이션이다. 아직 본격적으로 프로그래밍을 공부하기 전이라 프로젝트의 기획과 디자인을 맡았었다."
+              link="https://github.com/Oasis-3N/Oasis-3N"
             />
           </Col>
 

@@ -157,7 +157,7 @@ html {
 }
 
 .navbar-nav .nav-link {
-  color: #4263eb !important;
+  color: #364fc7 !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
   font-family: "Raleway", serif !important;
@@ -192,7 +192,7 @@ html {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #91a7ff;
+  background: #5c7cfa;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -471,17 +471,18 @@ html {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px #bac8ff !important;
   color: #212529 !important;
+  box-shadow: 0 0 0.1rem #91a7ff;
   background-color: transparent !important;
   opacity: 0.9 !important;
-  transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  transition: all 0.3s ease 0s !important;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px #91a7ff !important;
+  box-shadow: 0 0 0.1rem #91a7ff;
+  border: 0.05rem solid #91a7ff;
 }
 
 .blog-card {
